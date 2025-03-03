@@ -1,0 +1,18 @@
+.vs
+.vscode
+bin
+bin-int
+
+# Ignore everything
+*
+
+# But not these directories
+!src/gald.c
+!include/glad/glad.h
+!include/KHR/khrplatform.h
+
+# Allow specific files
+!README.md
+!premake5.lua
+!.gitignore
+
